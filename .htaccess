@@ -1,0 +1,6 @@
+RewriteEngine ON
+
+RewriteRule ^dashboard$ index.php [NC,L]
+RewriteRule ^student$ student.php [NC,L]
+RewriteRule ^students$ students.php [NC,L]
+RewriteRule ^student/([0-9]+)$ student.php?ID=$1 [NC,L]
